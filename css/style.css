@@ -1,0 +1,231 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	background-color:rgba(0, 0, 0, 1);
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+.nav{
+	width: 95%;
+	height: 100px;
+	/*background-color: red;*/
+	margin: auto;
+}
+.nav-left{
+	width: 70%;
+	height: 100px;
+	/*background-color: teal;*/
+	float: left;
+}
+.nav-right{
+	width: 30%;
+	height: 100px;
+	/*background-color: green;*/
+	float: right;
+	position: relative;
+	clear: right;
+}
+.nav-logo{
+	width: 30%;
+	height: 100px;
+	/*background-color: yellow;*/
+	float: left;
+	clear: left;
+}
+.nav-left img{
+	width: 250px;
+	height: 50px;
+	margin: 20px 0px;
+}
+.menu-nav{
+	width: 70%;
+	height: 100px;
+	/*background-color: orange;*/
+	float: right;
+	position: relative;
+}
+.menu-nav ul li{
+	float: left;
+	list-style-type: none;
+	padding: 35px 35px;
+	position: relative;
+}
+/*hover on ul li*/
+.menu-nav ul li a:hover{
+	border-bottom: 5px solid  red;
+
+}
+.menu-nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: OpenSansCondensed-Bold;
+}
+.menu-nav ul li .icon-home{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 17px;
+	left: 10px;
+}
+.menu-nav ul li .icon-movie{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+.menu-nav ul li .icon-video-player{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+.menu-nav ul li .icon-gallery{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+.nav-right input{
+	width: 100%;
+	height: 40px;
+	margin: 30px 0px;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+.nav-right .icon-search{
+	position: absolute;
+	top: 38px;
+	right: 10px;
+}
+.banner{
+	width: 100%;
+	height: 700px;
+	/*background-color: red;*/
+	margin: auto;
+}
+.banner img{
+	width: 100%;
+	height: 700px;
+}
+.content{
+	width: 95%;
+	height: 1000px;
+	background-color: black;
+	margin: 0px auto;
+}
+.title-suggested{
+	width: 40%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin-top: 50px;
+}
+.title-suggested h3{
+	color: white;
+	font-family: OpenSansCondensed-Bold;
+	font-size: 24px;
+	padding: 5px 0px;
+}
+.feature-trending{
+	width: 22%;
+	height: 50px;
+	/*border: 1px solid red;*/
+}
+.feature-trending .box-feature{
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	position: relative;
+	float: left;
+	clear: both;
+	border-radius: 5px;
+}
+.feature-trending .box-feature h3{
+	font-size: 24px;
+	font-weight: lighter;
+	color: white;
+	padding: 10px 50px;
+}
+.feature-trending .box-feature img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+/*for trending box*/
+.feature-trending .box-trending{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #ddd;
+	float: right;
+	position: relative;
+	transition: 1s;
+	border-radius: 5px;
+}
+.feature-trending .box-trending h3{
+	font-size: 24px;
+	font-weight: lighter;
+	color: white;
+	padding: 10px 45px;
+}
+.feature-trending .box-trending img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+.feature-trending .box-trending:hover{
+	background-color: red;
+}
+/*for sub-menu navbar*/
+.sub-menu{
+	width: 460px;
+	height: 380px;
+	background-color: white;
+	position: absolute;
+	top: 70px;
+	right: 30px;
+	display: none;
+}
+.menu-nav ul li:hover .sub-menu{
+	display: block;
+}
+.sub-menu ul li{
+	margin: 0px 11.5px 0px 11.5px;
+	padding: 10px 0px;
+	/*border: 1px solid red;*/
+	width: 130px;
+	height: 40px;
+	text-align: center;
+}
+.sub-menu ul .li-t{
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+}
+.sub-menu ul li a{
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+	/*border: 1px solid red;*/
+
+}
+.sub-menu ul li:hover{
+	 background-color: #e74c3c;
+	 display: block;
+}
+.sub-menu ul li a:hover{
+	border: none;
+}
